@@ -1,0 +1,16 @@
+# Godot 4 cache
+.godot/
+
+# Local saves / settings / logs
+save/
+*.log
+*.tmp
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python tool cache
+__pycache__/
+*.pyc

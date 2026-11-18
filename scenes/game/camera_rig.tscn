@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/camera_rig.gd" id="1_camera"]
+
+[node name="CameraRig" type="Node3D"]
+script = ExtResource("1_camera")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+position = Vector3(0, 7, 9.5)
+rotation = Vector3(-0.635, 0, 0)
+projection = 1
+size = 9.0
+near = 0.05
+far = 400.0
+current = true
